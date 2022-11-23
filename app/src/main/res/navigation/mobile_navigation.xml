@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Home">
+
+    <fragment
+        android:id="@+id/navigation_Home"
+        android:name="com.example.buttomnavigation.ui.home.HomeFragment"
+        android:label="@string/Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_Account"
+        android:name="com.example.buttomnavigation.ui.Account.AccountFragment"
+        android:label="@string/Account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/navigation_Location"
+        android:name="com.example.buttomnavigation.ui.Location.LocationsFragment"
+        android:label="@string/Location"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/navigation_Money"
+        android:name="com.example.buttomnavigation.ui.Money.MoneyFragment"
+        android:label="@string/Money"
+        tools:layout="@layout/fragment_money" />
+    <fragment
+        android:id="@+id/navigation_Connect"
+        android:name="com.example.buttomnavigation.ui.Connect.ConnectFragment"
+        android:label="@string/Connect"
+        tools:layout="@layout/fragment_connect" />
+
+</navigation>
