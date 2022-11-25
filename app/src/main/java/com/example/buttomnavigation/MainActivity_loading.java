@@ -10,13 +10,14 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.buttomnavigation.databinding.ActivityMainBinding;
+
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity_loading extends AppCompatActivity {
 
 
-    private ActivityMainBinding binding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
